@@ -5,6 +5,8 @@
       .header {
         overflow: hidden;
         border: double;
+        border-style: solid;
+        background-color:grey;
         margin: auto;
       }
       .header_logo {
@@ -29,16 +31,19 @@
       .vertical {
         overflow: hidden;
         border: double;
+        border-style: solid;
+        background-color:ligthselver;
         margin: auto;
         margin-top: 10px;
+        background-color: grey;
       }
       .menu {
         width: 30%;
         margin-top: 10px;
-        float: center;
+        float: left;
         margin: auto;
       }
-      td {
+      ul {
         list-style-type: none;
         padding-left: 5px;
         margin: auto;
@@ -50,7 +55,7 @@
       }
       .kandungan {
         margin: auto;
-        float: center;
+        float: left;
         border-left: double;
         width: 65%;
         padding: 10px;
@@ -62,16 +67,17 @@
         padding: 10px;
       } 
       .kaki {
+        width: 100%;
         margin: auto;
-        border-style: double;
-        margin: auto;
+        margin-top; 10px;
+        border: double;
+        border-style: solid;
+        border-color: black;
+        background-color: grey;
         padding-top: 5px;
         padding-bottom: 5px;
         text-align: center;
-        margin-top: 10px;
       }
-    
-
     </style>
   </head>
   <body>
@@ -84,16 +90,16 @@
     <div class="vertical">
     <!--MENU-->
     <div class ="menu">
-          <tr>
-              <td><h4><a href="index.html">UTAMA</a></h4></td>
-              <td><h4><a href="#">KEDAI KAMI</a></h4></td>
-              <td><h4><a href="#">TENTANG KAMI</a></h4></td>
-              <td><h4><a href="#">HUBUNGI KAMI</a></h4></td>
-          </tr>
+          <ul>
+              <li><a href="index.html">UTAMA</a></li>
+              <li><a href="#">KEDAI KAMI</a></li>
+              <li><a href="#">TENTANG KAMI</a></li>
+              <li><a href="#">HUBUNGI KAMI</a></li>
+          </ul>
         
      <!--CONTENT-->
      <div class="kandungan">
-        <img src="images/kek.jpg">
+        <img src="images/kek.jpg" width="150px">
          <br>
               <form action="">
                     <textarea name="" id="" cols="30" rows="10"></textarea>
